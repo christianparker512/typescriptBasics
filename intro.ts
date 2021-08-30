@@ -1,17 +1,17 @@
-var a = 10;
-var b: string = "Christian";
-var c: boolean = true;
+let a: number = 100;
+// a = a % 2;
+console.log(a++);
+//10
 console.log(a);
+//11
 
+console.log(a > 50 ? 'christian' : 'parker');
 
-var d: number = 20;
+// let c: number = 100;
+// let d: string = '100';
 
-let e: number = 20;
+let c = 100;
+let d = '100';
+// console.log(c == d);
 
-const f: number = 30;
-
-
-let g: string = "parker";
-// g = 10;
-
-console.log(g);
+console.log(a>10 && a>200 ? 'true' : 'false' )
