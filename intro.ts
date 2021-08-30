@@ -16,8 +16,8 @@ for (let elem of arr1) {
 }
 // prints the index value
 let arr2 = 'Christian';
-for (let elem in arr2) {
-  console.log(elem);
+for (let eleme in arr2) {
+  console.log(eleme);
 }
 
 let a: number = 10;
@@ -26,3 +26,8 @@ while(a<20) {
   a++;
 }
 
+let h: number = 10;
+do {
+  console.log(h);
+  h++;
+} while (a<20)
