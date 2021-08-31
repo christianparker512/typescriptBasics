@@ -14,3 +14,12 @@ function getRandomNumber(): number{
 }
 let a = getRandomNumber();
 console.log(a);
+
+function getSum(a: number, b: number , c? : number): number {
+  // return a + b;
+  if (c != undefined) { return a + b + c }
+  return a + b;
+} 
+// let ans = getSum(10, 100);
+let ans = getSum(10, 20, 300);
+console.log(ans);
